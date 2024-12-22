@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Заметки</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="column">
+          <h1 id="titlec1" class="title">Заметки</h1>
+          <div class="input-body">
+            <input
+              placeholder="Введите название"
+              id="input1"
+              class="input-title"
+              type="text"
+              maxlength="40"
+            />
+          </div>
+          <div class="btn-body">
+            <button id="createBtn" class="create">Добавить</button>
+          </div>
+          <ul class="list" id="listid">
+            <!-- <p class="page" id="pageid">Заметок пока нет</p> -->
+            <li id="wq">
+              <div id="label_name" class="lable">Название</div>
+              <div class="btns">
+                <span id="yes_btn" class="btn-success _green">&check;</span>
+                <span id="no_btn" class="btn-danger _red">&times;</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/teory.js"></script>
+  </body>
+</html>
