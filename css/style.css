@@ -121,7 +121,8 @@ body {
   padding: 8px;
   flex: 1 1 auto;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 
 .btn-body {
@@ -192,14 +193,21 @@ body {
   transform: scale(1.2);
 }
 
-#wq {
-  display: none;
-}
-
 .page {
   text-align: center;
   letter-spacing: 3px;
   font-size: 23px;
   color: white;
   opacity: 0.5;
+}
+
+.lable {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.counter {
+  font-size: 20px;
+  font-weight: 700;
+  color: #019bc2;
 }
